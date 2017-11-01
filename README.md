@@ -1,6 +1,11 @@
 # android-zxing-demo
 
-ZXing demo for android.
+## ZXing demo for android.
+
+## Use:
+
+- [zxing](https://github.com/zxing/zxing)
+- [zxing-android-embedded](https://github.com/journeyapps/zxing-android-embedded)
 
 |Normal Scan|Fullscreen Scan|
 |---|---|
