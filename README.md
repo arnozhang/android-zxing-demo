@@ -2,7 +2,9 @@
 
 <br/>
 
-## ZXing demo for android.
+ZXing demo for android.
+
+<br/>
 
 ## Use:
 
