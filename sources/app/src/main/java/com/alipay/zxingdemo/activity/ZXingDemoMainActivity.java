@@ -41,6 +41,10 @@ public class ZXingDemoMainActivity extends AppCompatActivity {
         QRCodeScanActivity.start(this, REQUEST_FOR_SCAN);
     }
 
+    public void onScanFullscreenClicked(View view) {
+        QRCodeScanFullscreenActivity.start(this, REQUEST_FOR_SCAN);
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

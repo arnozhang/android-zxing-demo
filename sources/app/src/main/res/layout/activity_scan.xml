@@ -19,7 +19,7 @@
             android:layout_weight="1"/>
 
         <TextView
-            android:id="@+id/switch_torch"
+            android:id="@id/switch_torch"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:paddingLeft="10dp"
@@ -54,7 +54,7 @@
             app:viewAspectRatio="1.0">
 
             <com.journeyapps.barcodescanner.CompoundBarcodeView
-                android:id="@+id/bar_code_view"
+                android:id="@id/bar_code_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="1px"/>

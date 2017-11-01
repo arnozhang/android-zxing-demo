@@ -22,16 +22,16 @@ import android.app.Activity;
 import android.content.Intent;
 import com.alipay.zxingdemo.R;
 
-public class QRCodeScanActivity extends BaseQRCodeScanActivity {
+public class QRCodeScanFullscreenActivity extends BaseQRCodeScanActivity {
 
     public static void start(Activity activity, int requestCode) {
-        Intent intent = new Intent(activity, QRCodeScanActivity.class);
+        Intent intent = new Intent(activity, QRCodeScanFullscreenActivity.class);
         activity.startActivityForResult(intent, requestCode);
     }
 
 
     @Override
     protected int getContentLayoutResId() {
-        return R.layout.activity_scan;
+        return R.layout.activity_scan_fullscreen;
     }
 }
